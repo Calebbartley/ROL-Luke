@@ -1,0 +1,50 @@
+.nav{
+    display: inline-block;
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    justify-self: flex-start;
+    
+
+    .title{
+        color: rgb(243, 240, 242);
+        font-size: 30px;
+        font-weight: 500px;
+        margin-left: 35px;
+        font-family: 'Foldit';
+    }
+    
+    .content{
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+        text-align: center;
+        list-style-type: none;
+        letter-spacing: normal;
+        text-decoration: none;
+        justify-content: space-around;
+        margin: -55px 900px;
+        margin-right: 30px;
+        font-size: 20px;
+        text-decoration-color: antiquewhite
+    }
+
+    .link{
+        color: antiquewhite
+    }
+
+    .link:hover{
+        color: fuchsia
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@400;500;700&family=Tektur:wght@400;500&display=swap');

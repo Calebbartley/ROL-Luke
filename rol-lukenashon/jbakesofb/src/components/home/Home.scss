@@ -1,0 +1,29 @@
+.HomePage{
+    background-image: url(../../assets/backg.jpg);
+    background-repeat: none;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    scroll-behavior: smooth;
+  }
+
+.header{
+    display:flex;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 5px;
+    width: 978px; 
+    padding: 50px;
+    font-family: Syne;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    color: fuchsia;
+    backdrop-filter: blur(5px);
+}
